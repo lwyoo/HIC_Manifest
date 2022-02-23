@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="origin" fetch="https://repo.ccos.dev/scm/ccos_platform/" />
-    <default="origin", revision="@mars"/>
-    <project groups="hmc" name="clu_gen2.mobis.ccos.app.manager.appeventmanager" path="manager/appeventmanager" remote="origin"/>
+    <!--<default remote="origin" revision="@mars" dest-branch="@mars" />-->
+    <project groups="hmc" name="clu_gen2.mobis.ccos.app.manager.appeventmanager" path="manager/appeventmanager" remote="origin" revision="@mars"/>
 </manifest>
