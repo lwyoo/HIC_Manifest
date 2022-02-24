@@ -2,8 +2,10 @@
 
 <manifest>
 
+  <default sync-j="8" />
   <include name="default/hmi.xml" />
   <include name="default/manager.xml" />
   <include name="default/style.xml" />
 
 </manifest>
+
