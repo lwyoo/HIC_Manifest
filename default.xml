@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <manifest>
-    <remote name="origin" fetch="https://repo.ccos.dev/scm/ccos_platform/" />
-    <!--<default remote="origin" revision="@mars" dest-branch="@mars" />-->
-    <project groups="hmc" name="clu_gen2.mobis.ccos.app.manager.appeventmanager" path="manager/appeventmanager" remote="origin" revision="@mars"/>
+
+  <default revision="master"
+           remote="ivis"
+           sync-j="8"
+           sync-c="true" />
+  <include name="default/manager.xml" />
+<!-- 
+  <include name="default/ivis.xml" />
+  <include name="default/hmc.xml" />
+  <include name="default/mobis.xml" /> -->
+
 </manifest>

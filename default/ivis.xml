@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+    <remote name="ivis" fetch="." review="ssh://dcp.ivis.tech"/>
+
+    <!-- IVIS repositories -->
+    <!--
+        Moved to HMC
+        <project groups="srcs" name="SFC" path="srcs/SFC" />
+        <project groups="srcs" name="bigbang" path="srcs/apptemplate/bigbang" revision="clu_alpha" />
+        <project groups="srcs" name="blackhole" path="srcs/apptemplate/blackhole" revision="ccOS2.0" />
+        <project groups="srcs" name="ccos.api.hvehicle" path="srcs/alton/HVehicle" revision="ccOS2.0_CLU" />
+        <project groups="srcs" name="serviceframework" path="srcs/serviceframework" />
+    -->
+    <project groups="srcs" name="librpc" path="srcs/librpc" />
+    <project groups="srcs" name="alton.hal.dummy" path="srcs/alton/alton.hal.dummy" />
+    <!-- <project groups="srcs" name="alton.hal.gapdol" path="srcs/alton/alton.hal.gapdol" /> -->
+    <project groups="srcs" name="alton.service" path="srcs/alton/AltonService" />
+    <project groups="srcs" name="alton.test" path="srcs/alton/unittest" />
+    <project groups="srcs" name="tools" path="tools" >
+        <copyfile src="CMakeLists/srcs/CMakeLists.txt" dest="srcs/CMakeLists.txt" />
+        <copyfile src="CMakeLists/srcs/alton/CMakeLists.txt" dest="srcs/alton/CMakeLists.txt" />
+        <copyfile src="CMakeLists/srcs/apptemplate/CMakeLists.txt" dest="srcs/apptemplate/CMakeLists.txt" />
+        <copyfile src="CMakeLists/srcs/deploy/CMakeLists.txt" dest="srcs/deploy/CMakeLists.txt" />
+    </project>
+    <project groups="srcs" name="appcommonshared" path="srcs/apptemplate/appcommonshared" revision="ivis_modification" />
+    <project groups="srcs" name="ccos.app.common.appcommontype" path="srcs/apptemplate/appcommontype" revision="ccOS2.0" />
+    <project groups="srcs" name="managerappcommon" path="srcs/apptemplate/managerappcommon" revision="ivis_modification" />
+    <project groups="srcs" name="hmiappcommon" path="srcs/apptemplate/hmiappcommon" revision="ivis_modification" />
+    <project groups="srcs" name="ccos-fallback" path="srcs/apptemplate/ccos-fallback" revision="ivis_modification" />
+    <project groups="srcs" name="windowguicomponents" path="srcs/apptemplate/windowguicomponents" revision="ccOS2.0" />
+</manifest>
