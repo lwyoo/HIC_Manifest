@@ -3,4 +3,9 @@
 <manifest>
     <remote name="origin" fetch="https://repo.ccos.dev/scm/ccos_platform/" />
     <project groups="hmc" name="clu_gen2.mobis.ccos.app.manager.appeventmanager" path="manager/appeventmanager" remote="origin" revision="@mars"/>
+    <project groups="hmc" name="ccos.app.manager.setupmanager" path="manager/setupmanager" remote="origin" revision="@s6mobis"/>
+    <project groups="hmc" name="ccos.app.manager.testautomationmanager" path="manager/testautomationmanager" remote="origin" revision="@s6mobis"/>
+    <project groups="hmc" name="clu_gen2.mobis.ccos.app.manager.updatemanager" path="manager/updatemanager" remote="origin" revision="@mars"/>
+    <project groups="hmc" name="ccos.app.manager.soundmanager" path="manager/soundmanager" remote="origin" revision="@mars"/>
+    <project groups="hmc" name="clu_gen2.mobis.ccos.app.manager.usagecollectionmanager" path="manager/usagecollectionmanager" remote="origin" revision="@mars"/>
 </manifest>
