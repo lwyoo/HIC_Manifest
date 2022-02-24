@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+    <remote name="origin" fetch="https://repo.ccos.dev/scm/ccos_platform/" />
+    <project groups="hmc" name="ccos.app.hmi.binnaclehmi" path="hmi/binnaclehmi" remote="origin" revision="@mars"/>
+    <project groups="hmc" name="ccos.app.hmi.hudhmi" path="hmi/hudhmi" remote="origin" revision="@mars"/>
+    <project groups="hmc" name="clu_gen2.mobis.ccos.app.hmi.engineeringmodehmi" path="hmi/engineeringmodehmi" remote="origin" revision="@mars"/>
+</manifest>

@@ -6,6 +6,7 @@
            remote="origin"
            sync-j="8"
            sync-c="true" />
+  <include name="default/hmi.xml" />
   <include name="default/manager.xml" />
 <!-- 
   <include name="default/ivis.xml" />
