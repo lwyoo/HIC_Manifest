@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
-<remote name="ivis" fetch="." />
+<remote name="origin" fetch="." />
 </manifest>

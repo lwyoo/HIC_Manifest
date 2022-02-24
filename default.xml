@@ -3,7 +3,7 @@
 <manifest>
 
   <default revision="master"
-           remote="ivis"
+           remote="origin"
            sync-j="8"
            sync-c="true" />
   <include name="default/manager.xml" />
