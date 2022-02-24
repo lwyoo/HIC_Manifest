@@ -4,5 +4,4 @@
     <remote name="origin" fetch="https://bitbucket.mobis.co.kr/scm/clu_dc_gn7_hmi/" />
     <project groups="mobis" name="CLU_DC_GN7_HMI.design_GUI_Guideline" path="style/CLU_DC_GN7_HMI.design_GUI_Guideline" remote="origin" revision="master"/>
     <project groups="mobis" name="CLU_HUD_GUIdesign_styleguide" path="style/CLU_HUD_GUIdesign_styleguide" remote="origin" revision="master"/>
-    
 </manifest>
